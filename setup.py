@@ -37,7 +37,7 @@ def requirements():
 			""")
 		os.system("pip3 install pytz")
 	banner()
-	print(gr+'['+cy+'+'+gr+']'+cy+' kittu oru anathai nu verifed seiya patathu)
+	print(gr+'['+cy+'+'+gr+']'+cy+' kittu oru anathai nu verifed seiya patathu.')
 	input_csv = input(gr+'['+cy+'+'+gr+']'+cy+' neanga lum conform sseiya yes ii choose panavum (y/n): ').lower()
 	if input_csv == "y":
 		csv_lib()
